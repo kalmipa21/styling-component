@@ -1,0 +1,31 @@
+body,
+html {
+  height: 100%;
+}
+.bg {
+  background-image: url("https://e0.pxfuel.com/wallpapers/673/559/desktop-wallpaper-floppy-disk-evolution-ultra-background-for.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn {
+  padding: 8px 1rem;
+  border-radius: 10px;
+  border: none;
+}
+.btn.btn-plain {
+  background: blueviolet;
+  color: white;
+}
+.btn.btn-plain:hover {
+  background: rgb(126, 3, 241);
+  cursor: pointer;
+}
+/* .image-profile {
+  background-image: url("https://drive.google.com/file/d/1erjVbVB3TG3BMBigxpHfWurnB52qaBHL/view?usp=sharing");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+} */

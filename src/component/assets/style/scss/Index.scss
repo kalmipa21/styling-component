@@ -1,0 +1,24 @@
+.processor {
+  .btn {
+    padding: 8px 1rem;
+    border-radius: 6px;
+    border: 2px solid black;
+
+    &.btn-sass {
+      background: red;
+      color: white;
+    }
+    &:hover {
+      background: rgb(126, 3, 241);
+      cursor: pointer;
+    }
+  }
+  //   .btn.btn-sass {
+  //     background: red;
+  //     color: white;
+  //   }
+  //   .btn.btn-sass:hover {
+  //     background: rgb(126, 3, 241);
+  //     cursor: pointer;
+  //   }
+}

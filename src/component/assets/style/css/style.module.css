@@ -1,0 +1,13 @@
+.btn {
+  padding: 8px 1rem;
+  border-radius: 10px;
+  border: none;
+}
+.btn.btn-plain {
+  background: yellow;
+  color: black;
+}
+.btn.btn-plain:hover {
+  background: rgb(126, 3, 241);
+  cursor: pointer;
+}
