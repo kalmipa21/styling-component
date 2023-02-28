@@ -1,5 +1,6 @@
 // import Navbar from "react-bootstrap";
 import { Container, Nav, Navbar, Image } from "react-bootstrap";
+import Foto from "../assets/image/34.jpg";
 const Header = () => {
   return (
     <>
@@ -20,9 +21,9 @@ export function Profile() {
   return (
     <>
       <Image
-        src="https://drive.google.com/file/d/1erjVbVB3TG3BMBigxpHfWurnB52qaBHL/view?usp=sharing"
+        src={Foto}
         alt="Foto Profile"
-        width="100%"
+        width="300px"
         height="auto"
         rounded
       />

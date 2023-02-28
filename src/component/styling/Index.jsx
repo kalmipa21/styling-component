@@ -21,7 +21,7 @@ const Home = () => {
         <div className="container text-start">
           <div className="row pt-3 font-monospace" style={{ color: "white" }}>
             <h1 className="text-center">Siapakah Saya?</h1>
-            <div className="col-lg-8 col-md-6 col-12">
+            <div className="col-lg-9 col-md-6 col-12">
               <p>
                 Saya merupakan seorang pembelajar yang menyukai belajar.
                 Motivasi dalam hidup saya adalah{" "}
@@ -39,7 +39,7 @@ const Home = () => {
                 Nama saya adalah....
               </p>
             </div>
-            <div className="col-lg-4 col-md-6 col-12 bg-primary">
+            <div className="col-lg-3 col-md-6 col-12 text-end">
               <Profile />
             </div>
             <h2
